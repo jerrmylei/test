@@ -1,0 +1,22 @@
+1下载git并查看 -git version
+2 vim Git
+3 git init
+4 cd Git
+5 git status
+6 生成秘钥 
+remote add origin https://github.com/jer
+git remote -v
+ls -al ~/.ssh
+ssh-keygen -t rsa -C "1549813106@qq.com"
+ls -al ~/.ssh
+7加秘钥，在网站
+cd ~/.ssh
+cat id_rsa.pub
+ssh -T git@github.com
+8从网站上下载
+git clone https://github.com/aszxqw/cppjieba.git
+9上传到网站
+git add hello.cpp
+git commit -m first
+git push origin master
+
